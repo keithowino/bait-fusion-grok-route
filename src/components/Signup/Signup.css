@@ -1,0 +1,43 @@
+.signup {
+    padding: 2rem;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: var(--neutral-white);
+}
+
+.signup h2 {
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.signup input {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+.signup button {
+    background-color: var(--accent-orange);
+    color: var(--neutral-white);
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.signup button:hover {
+    background-color: var(--secondary-teal);
+}
+
+.signup .error {
+    color: var(--accent-orange);
+    text-align: center;
+}
+
+.signup a {
+    color: var(--primary-blue);
+    text-decoration: none;
+}
+
+.signup a:hover {
+    color: var(--secondary-teal);
+}

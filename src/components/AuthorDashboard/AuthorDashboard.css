@@ -1,0 +1,175 @@
+.error {
+    color: var(--accent-orange);
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+    text-align: left;
+}
+
+.author-dashboard {
+    padding: 2rem;
+    background-color: var(--neutral-white);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.author-dashboard h2 {
+    color: var(--dark-gray);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.toggle-preview-button {
+    background-color: var(--primary-blue);
+    color: var(--neutral-white);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+.toggle-preview-button:hover {
+    background-color: var(--secondary-teal);
+    transform: translateY(-1px);
+}
+
+.save-button {
+    background-color: var(--accent-orange);
+    color: var(--neutral-white);
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.save-button:hover {
+    background-color: var(--secondary-teal);
+    transform: translateY(-1px);
+}
+
+.metadata-input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0 1rem;
+    border: 1px solid var(--primary-blue);
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: var(--neutral-white);
+    color: var(--dark-gray);
+}
+
+.metadata-input:focus {
+    outline: none;
+    border-color: var(--secondary-teal);
+    box-shadow: 0 0 0 2px rgba(45, 212, 191, 0.2);
+}
+
+.ql-container {
+    font-family: Arial, sans-serif;
+    min-height: 200px;
+}
+
+.course-preview {
+    background-color: var(--neutral-white);
+    padding: 1.5rem;
+    border: 1px solid var(--primary-blue);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.preview-title {
+    font-size: 1.5rem;
+    color: var(--dark-gray);
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.preview-category,
+.preview-price {
+    font-size: 1rem;
+    color: var(--primary-blue);
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+.preview-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--dark-gray);
+    margin: 1rem 0;
+}
+
+.preview-content img,
+.preview-content video {
+    max-width: 100%;
+    height: auto;
+}
+
+.my-courses {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: var(--neutral-white);
+    border: 1px solid var(--primary-blue);
+    border-radius: 8px;
+}
+
+.my-courses h3 {
+    color: var(--dark-gray);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.course-list {
+    list-style: none;
+    padding: 0;
+}
+
+.course-item {
+    background-color: var(--primary-blue);
+    color: var(--neutral-white);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.course-item h4 {
+    margin-bottom: 0.5rem;
+}
+
+.course-item p {
+    margin: 0.25rem 0;
+}
+
+.edit-button,
+.delete-button {
+    background-color: var(--accent-orange);
+    color: var(--neutral-white);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.edit-button:hover {
+    background-color: var(--secondary-teal);
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    /* Red for delete */
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}

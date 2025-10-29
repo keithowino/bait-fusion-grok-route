@@ -1,0 +1,52 @@
+.about {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--neutral-white);
+}
+
+.about-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.about-hero h1 {
+    color: var(--primary-blue);
+    font-size: 2.5rem;
+}
+
+.about-hero p {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+}
+
+.mission,
+.values {
+    margin-bottom: 3rem;
+}
+
+.mission h2,
+.values h2 {
+    text-align: center;
+    color: var(--dark-gray);
+    margin-bottom: 1rem;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.value-card {
+    background: #f8faff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--primary-blue);
+}
+
+.value-card h3 {
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}

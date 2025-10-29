@@ -1,0 +1,121 @@
+.home {
+    padding: 2rem;
+    background-color: var(--neutral-white);
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    color: var(--dark-gray);
+    padding: 1rem 0;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    margin: 1rem 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+}
+
+.hero-stats>div {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.hero-stats strong {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--primary-blue);
+}
+
+.cta-button {
+    background-color: var(--accent-orange);
+    color: var(--neutral-white);
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-teal);
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* 1 column for mobile */
+    gap: 1rem;
+}
+
+.course-card {
+    background-color: var(--primary-blue);
+    color: var(--neutral-white);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 0;
+    /* Prevent overflow */
+}
+
+.course-card p {
+    text-align: left;
+    padding: 5px 0;
+}
+
+.enroll-button {
+    background-color: var(--accent-orange);
+    color: var(--neutral-white);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.enroll-button:hover {
+    background-color: var(--secondary-teal);
+}
+
+/* Sentinel – never visible, just a trigger */
+.sentinel {
+    height: 1px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.no-more {
+    text-align: center;
+    color: var(--dark-gray);
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .course-grid {
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 columns for desktop */
+    }
+}
+
+@media (max-width: 768px) {
+    .course-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 502px) {
+    .course-grid {
+        /* grid-template-columns: repeat(1, 1fr); */
+        grid-template-columns: 1fr;
+    }
+}

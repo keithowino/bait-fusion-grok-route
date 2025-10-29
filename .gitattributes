@@ -1,0 +1,9 @@
+# Ensure text files use LF line endings
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+.gitignore text eol=lf
+*.config.js text eol=lf

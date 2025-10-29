@@ -1,0 +1,81 @@
+.course-card {
+    position: relative;
+    background-color: var(--primary-blue);
+    color: var(--neutral-white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-author,
+.card-price {
+    font-size: 0.9rem;
+    color: var(--secondary-teal);
+    margin: 0.25rem 0;
+    text-align: left;
+}
+
+.card-preview {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+    text-align: left;
+    max-height: 70px;
+    overflow: hidden;
+}
+
+.featured-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: linear-gradient(135deg, var(--accent-orange), #fb923c);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+    z-index: 1;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.enroll-button {
+    display: block;
+    /* Make link fill button space */
+    background-color: var(--accent-orange);
+    color: var(--neutral-white);
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.enroll-button:hover {
+    background-color: var(--secondary-teal);
+}

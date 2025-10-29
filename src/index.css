@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--neutral-white);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Global Color Palette Variables */
+:root {
+  --primary-blue: #2563EB;
+  --secondary-teal: #2DD4BF;
+  --accent-orange: #F59E0B;
+  --neutral-white: #FFFFFF;
+  --dark-gray: #1F2937;
+}
+
+/* Global Button Reset */
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.loading {
+  padding: 2rem;
+  text-align: center;
+  color: var(--dark-gray);
+  font-style: italic;
+}

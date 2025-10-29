@@ -1,0 +1,85 @@
+.courses {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--neutral-white);
+}
+
+.courses h2 {
+    color: var(--dark-gray);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+
+.filter-input,
+.filter-select {
+    padding: 0.5rem;
+    border: 1px solid var(--primary-blue);
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: var(--neutral-white);
+    color: var(--dark-gray);
+}
+
+.filter-input {
+    width: 200px;
+}
+
+.filter-select {
+    width: 150px;
+}
+
+.filter-input:focus,
+.filter-select:focus {
+    outline: none;
+    border-color: var(--secondary-teal);
+    box-shadow: 0 0 0 2px rgba(45, 212, 191, 0.2);
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .course-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 502px) {
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter-input,
+    .filter-select {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+.courses .loading {
+    text-align: center;
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+}
+
+.courses p {
+    text-align: center;
+    color: var(--dark-gray);
+    font-size: 1rem;
+}

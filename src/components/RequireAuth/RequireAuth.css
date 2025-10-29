@@ -1,0 +1,8 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+}
